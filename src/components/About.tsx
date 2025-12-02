@@ -11,10 +11,10 @@ export default function About() {
             <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
                <Image 
-                 src="https://images.unsplash.com/photo-1599256621730-535171e28e50?ixlib=rb-4.0.3&auto=format&fit=crop&w=1632&q=80"
+                 src="/images/profile shot.png"
                  alt="Douglas Beal - Auto Glass Expert"
                  fill
-                 className="object-cover"
+                 className="object-cover object-top"
                />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl hidden md:block border border-slate-100">
@@ -62,6 +62,32 @@ export default function About() {
                 <p className="font-bold text-slate-900">Douglas Beal</p>
                 <p className="text-slate-500 text-sm">Owner & Lead Technician</p>
               </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Action Shots Gallery */}
+        <div className="mt-20 grid md:grid-cols-2 gap-8">
+          <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[16/9]">
+            <Image 
+              src="/images/chip repair.png" 
+              alt="Douglas performing windshield chip repair"
+              fill
+              className="object-cover"
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+              <p className="text-white font-medium">Precision Chip Repair</p>
+            </div>
+          </div>
+          <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[16/9]">
+            <Image 
+              src="/images/back glass action shot.jpg" 
+              alt="Douglas installing back glass"
+              fill
+              className="object-cover"
+            />
+             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+              <p className="text-white font-medium">Expert Installation</p>
             </div>
           </div>
         </div>

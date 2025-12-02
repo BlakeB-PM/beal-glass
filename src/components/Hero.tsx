@@ -44,7 +44,7 @@ export default function Hero() {
             className="w-full sm:w-auto bg-white text-brand-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-brand-50 transition-all transform hover:-translate-y-1 shadow-xl shadow-brand-900/20 flex items-center justify-center gap-3"
           >
             <Phone className="h-6 w-6" />
-            <span>Call (432) 352-2687</span>
+            <span>Call or Text (432) 352-2687</span>
           </a>
         </div>
 

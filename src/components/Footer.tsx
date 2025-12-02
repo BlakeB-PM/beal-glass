@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="max-w-4xl mx-auto px-4 relative z-10 text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-8">Ready to fix that glass?</h2>
           <p className="text-brand-100 mb-12 text-xl leading-relaxed max-w-2xl mx-auto">
-            Get a fast, free quote today. Call or email me directly, and I'll get back to you with a price and availability.
+            Get a fast, free quote today. Call or text me directly, and I'll get back to you with a price and availability.
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -22,7 +22,7 @@ export default function Footer() {
                 <div className="bg-brand-500/20 p-4 rounded-full mb-6 group-hover:scale-110 transition-transform">
                    <Phone className="h-8 w-8 text-brand-300" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Call Me Directly</h3>
+                <h3 className="text-xl font-bold mb-2">Call or Text</h3>
                 <p className="text-3xl font-bold text-white mb-2">(432) 352-2687</p>
                 <p className="text-brand-200 text-sm">Fastest response time</p>
              </a>
