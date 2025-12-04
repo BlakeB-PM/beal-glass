@@ -65,32 +65,6 @@ export default function About() {
             </div>
           </div>
         </div>
-        
-        {/* Action Shots Gallery */}
-        <div className="mt-20 grid md:grid-cols-2 gap-8">
-          <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[16/9]">
-            <Image 
-              src="/images/chip repair.png" 
-              alt="Douglas performing windshield chip repair"
-              fill
-              className="object-cover"
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-              <p className="text-white font-medium">Precision Chip Repair</p>
-            </div>
-          </div>
-          <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[16/9]">
-            <Image 
-              src="/images/back glass action shot.jpg" 
-              alt="Douglas installing back glass"
-              fill
-              className="object-cover"
-            />
-             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-              <p className="text-white font-medium">Expert Installation</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

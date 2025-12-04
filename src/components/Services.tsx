@@ -1,4 +1,4 @@
-import { Scan, Car, RectangleVertical, Wrench } from 'lucide-react';
+import { Shield, Car, DoorOpen, Wrench } from 'lucide-react';
 
 const services = [
   {
@@ -9,12 +9,12 @@ const services = [
   {
     name: 'Rock Chip Repair',
     description: 'Save money by repairing small chips before they spread into large cracks. Fast and often free with insurance.',
-    icon: Scan, 
+    icon: Shield, 
   },
   {
     name: 'Door & Back Glass',
     description: 'Shattered side window? I replace door glass, back glass, and even fix broken window regulators/motors.',
-    icon: RectangleVertical,
+    icon: DoorOpen,
   },
   {
     name: 'Mobile Service',

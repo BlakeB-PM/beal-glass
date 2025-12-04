@@ -47,22 +47,6 @@ export default function Hero() {
             <span>Call or Text (432) 352-2687</span>
           </a>
         </div>
-
-        {/* Trust Indicators */}
-        <div className="mt-16 flex flex-wrap justify-center gap-8 md:gap-16 text-brand-200 opacity-90 text-sm md:text-base font-medium">
-           <div className="flex items-center gap-2">
-             <div className="h-1.5 w-1.5 rounded-full bg-brand-400"></div>
-             Mobile Service
-           </div>
-           <div className="flex items-center gap-2">
-             <div className="h-1.5 w-1.5 rounded-full bg-brand-400"></div>
-             Insurance Approved
-           </div>
-           <div className="flex items-center gap-2">
-             <div className="h-1.5 w-1.5 rounded-full bg-brand-400"></div>
-             Lifetime Warranty
-           </div>
-        </div>
       </div>
     </section>
   );
