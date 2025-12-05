@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-brand-500 opacity-10 blur-3xl"></div>
 
         <div className="max-w-4xl mx-auto px-4 relative z-10 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8">Ready to fix that glass?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8">Ready to fix that crack?</h2>
           <p className="text-brand-100 mb-12 text-xl leading-relaxed max-w-2xl mx-auto">
             Get a fast, free quote today. Call or text me directly, and I'll get back to you with a price and availability.
           </p>
