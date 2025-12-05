@@ -14,7 +14,8 @@ export default function About() {
                  src="/images/profile shot.png"
                  alt="Douglas Beal - Auto Glass Expert"
                  fill
-                 className="object-cover object-top"
+                 className="object-cover"
+                  style={{ objectPosition: 'center 30%' }}
                />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl hidden md:block border border-slate-100">
@@ -30,10 +31,10 @@ export default function About() {
             </div>
             <h2 className="text-3xl font-bold text-slate-900 mb-6 sm:text-4xl">Local, Honest, and Hardworking</h2>
             <p className="text-slate-600 mb-6 text-lg leading-relaxed">
-              My name is Douglas Beal, and I've been serving the Permian Basin for over 40 years. At <strong>Beal Glass</strong>, you aren't just a number—you're a neighbor. I founded this business to provide a personal, reliable service that keeps our community safe on the road.
+              I'm Douglas Beal, and I've been serving the Permian Basin for over 40 years. At <strong>Beal Glass</strong>, you aren't just a number—you're a neighbor. I founded this business to provide a personal, reliable service that keeps our community safe on the road.
             </p>
             <p className="text-slate-600 mb-8 text-lg leading-relaxed">
-              When you call, you speak directly to me—the expert who will be working on your car. I take pride in my workmanship, using only top-quality glass and adhesives to ensure your vehicle is as safe as the day it left the factory. I treat every car like it belongs to my own family.
+              When you call, you speak directly to me—the expert who will be working on your car. I take pride in my workmanship, using only top-quality glass and adhesives to ensure your vehicle is as safe as the day it left the factory.
             </p>
             
             <ul className="space-y-4 mb-10">
@@ -60,7 +61,7 @@ export default function About() {
             <div className="flex items-center gap-4 pt-4 border-t border-slate-100">
               <div>
                 <p className="font-bold text-slate-900">Douglas Beal</p>
-                <p className="text-slate-500 text-sm">Owner & Lead Technician</p>
+                <p className="text-slate-500 text-sm">Owner</p>
               </div>
             </div>
           </div>
