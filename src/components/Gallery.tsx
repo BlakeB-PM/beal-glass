@@ -67,9 +67,9 @@ export default function Gallery() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section id="gallery" className="py-24 bg-white">
+    <section id="gallery" className="py-12 md:py-16 bg-slate-50">
       <div className="container mx-auto px-4">
-        <div className="mx-auto max-w-2xl text-center mb-16">
+        <div className="mx-auto max-w-2xl text-center mb-8 md:mb-10">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Expert Craftsmanship</h2>
         </div>
         

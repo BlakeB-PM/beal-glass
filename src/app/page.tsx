@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import TrustBadges from "@/components/TrustBadges";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
 import About from "@/components/About";
@@ -11,10 +10,9 @@ export default function Home() {
     <main className="min-h-screen bg-white scroll-smooth">
       <Header />
       <Hero />
-      <TrustBadges />
+      <About />
       <Services />
       <Gallery />
-      <About />
       <Footer />
     </main>
   );
