@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Beal Glass - Expert Auto Glass in Odessa, TX</title>
+  <meta name="description" content="Reliable auto glass installation and repair in Odessa, Texas by Douglas Beal. Call for a free quote.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="images/logo.png" type="image/png">
+  
+  <!-- Google Fonts - Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <!-- ============================================
+         HEADER
+         ============================================ -->
+    <header class="header">
+      <div class="header-container">
+        <!-- Logo -->
+        <a href="#" class="logo-link">
+          <img src="images/logo.png" alt="Beal Glass">
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#gallery" class="nav-link">Work</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- CTA Button & Mobile Menu -->
+        <div class="header-actions">
+          <a href="tel:4323522687" class="cta-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>(432) 352-2687</span>
+          </a>
+
+          <!-- Mobile Menu Button -->
+          <button class="mobile-menu-btn" aria-label="Toggle menu" onclick="toggleMobileMenu()">
+            <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+            <svg id="close-icon" style="display:none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Overlay -->
+      <div class="mobile-menu" id="mobile-menu">
+        <nav class="mobile-nav">
+          <a href="#about" class="mobile-nav-link" onclick="closeMobileMenu()">About</a>
+          <a href="#services" class="mobile-nav-link" onclick="closeMobileMenu()">Services</a>
+          <a href="#gallery" class="mobile-nav-link" onclick="closeMobileMenu()">Work</a>
+          <a href="#contact" class="mobile-nav-link" onclick="closeMobileMenu()">Contact</a>
+          <a href="tel:4323522687" class="mobile-cta">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>Call (432) 352-2687</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section id="home" class="hero">
+      <!-- Background Image with Overlay -->
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80" alt="Auto Glass Repair Background">
+        <div class="hero-overlay"></div>
+      </div>
+      
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>Serving Odessa & The Permian Basin</span>
+        </div>
+        
+        <h1>Expert Auto Glass Repair <br>That Comes to You</h1>
+        
+        <p class="hero-description">
+          Cracked windshield? Broken door glass? I provide fast, reliable, owner-operated mobile service at your home or workplace.
+        </p>
+        
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="m9 14 2 2 4-4"></path></svg>
+            <span>Get a Free Quote</span>
+          </a>
+          
+          <a href="tel:4323522687" class="btn-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>Call or Text (432) 352-2687</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Image Column -->
+          <div class="about-image-col">
+            <div class="about-blob"></div>
+            <div class="about-image-wrapper">
+              <img src="images/profile shot.png" alt="Douglas Beal - Auto Glass Expert">
+            </div>
+            <div class="about-experience-badge">
+              <p class="number">40+</p>
+              <p class="label">Years of<br>Experience</p>
+            </div>
+          </div>
+
+          <!-- Content Column -->
+          <div class="about-content">
+            <div class="about-label">About The Owner</div>
+            <h2>Local, Honest, and Hardworking</h2>
+            <p>
+              I'm Douglas Beal, and I've been serving the Permian Basin for over 40 years. At <strong>Beal Glass</strong>, you aren't just a number—you're a neighbor. I founded this business to provide a personal, reliable service that keeps our community safe on the road.
+            </p>
+            <p>
+              When you call, you speak directly to me—the expert who will be working on your car. I take pride in my workmanship, using only top-quality glass and adhesives to ensure your vehicle is as safe as the day it left the factory.
+            </p>
+            
+            <ul class="about-list">
+              <li>
+                <div class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>
+                </div>
+                <span>Working with all insurance companies</span>
+              </li>
+              <li>
+                <div class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>
+                </div>
+                <span>Personal touch you can trust</span>
+              </li>
+              <li>
+                <div class="check-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>
+                </div>
+                <span>Free mobile service to your location</span>
+              </li>
+            </ul>
+
+            <div class="about-signature">
+              <div>
+                <p class="name">Douglas Beal</p>
+                <p class="title">Owner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SERVICES SECTION
+         ============================================ -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="services-header">
+          <p class="label">My Services</p>
+          <h2>Complete Auto Glass Solutions</h2>
+          <p>I handle everything from small rock chips to full windshield replacements on all vehicle makes and models.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Windshield Replacement -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg>
+            </div>
+            <h3>Windshield Replacement</h3>
+            <p>High-quality OEM or OEE glass installation. I ensure a perfect seal and proper fit for your safety.</p>
+          </div>
+
+          <!-- Rock Chip Repair -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
+            </div>
+            <h3>Rock Chip Repair</h3>
+            <p>Save money by repairing small chips before they spread into large cracks. Fast and often free with insurance.</p>
+          </div>
+
+          <!-- Door & Back Glass -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4h3a2 2 0 0 1 2 2v14"></path><path d="M2 20h3"></path><path d="M13 20h9"></path><path d="M10 12v.01"></path><path d="M13 4.562v16.157a1 1 0 0 1-1.242.97L5 20V5.562a2 2 0 0 1 1.515-1.94l4-1A2 2 0 0 1 13 4.561Z"></path></svg>
+            </div>
+            <h3>Door & Back Glass</h3>
+            <p>Shattered side window? I replace door glass, back glass, and even fix broken window regulators/motors.</p>
+          </div>
+
+          <!-- Mobile Service -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+            </div>
+            <h3>Mobile Service</h3>
+            <p>I come to you! Convenient mobile service at your home or workplace throughout Odessa and Midland.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         GALLERY SECTION
+         ============================================ -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="gallery-header">
+          <h2>Expert Craftsmanship</h2>
+        </div>
+        
+        <!-- Mobile Carousel -->
+        <div class="gallery-mobile">
+          <div class="carousel-viewport">
+            <div class="carousel-container" id="carousel">
+              <div class="carousel-slide" data-index="0">
+                <div class="gallery-item">
+                  <img src="images/Chip repair.png" alt="Precision Chip Repair" style="object-position: center 60%;">
+                  <div class="gallery-item-overlay"></div>
+                  <div class="gallery-item-title">
+                    <h3>Precision Chip Repair</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-slide inactive" data-index="1">
+                <div class="gallery-item">
+                  <img src="images/back glass action shot.jpg" alt="Expert Installation" style="object-position: center 55%;">
+                  <div class="gallery-item-overlay"></div>
+                  <div class="gallery-item-title">
+                    <h3>Expert Installation</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-slide inactive" data-index="2">
+                <div class="gallery-item">
+                  <img src="images/Caulking gun.png" alt="Proper Sealing" style="object-position: center 40%;">
+                  <div class="gallery-item-overlay"></div>
+                  <div class="gallery-item-title">
+                    <h3>Proper Sealing</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-slide inactive" data-index="3">
+                <div class="gallery-item">
+                  <img src="images/Cleaning windshield.png" alt="Quality Finish" style="object-position: center 45%;">
+                  <div class="gallery-item-overlay"></div>
+                  <div class="gallery-item-title">
+                    <h3>Quality Finish</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Carousel Controls -->
+          <div class="carousel-controls">
+            <button class="carousel-btn" onclick="scrollPrev()" aria-label="Previous image">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
+            </button>
+            
+            <div class="carousel-dots">
+              <button class="carousel-dot active" data-index="0" onclick="goToSlide(0)" aria-label="Go to image 1"></button>
+              <button class="carousel-dot" data-index="1" onclick="goToSlide(1)" aria-label="Go to image 2"></button>
+              <button class="carousel-dot" data-index="2" onclick="goToSlide(2)" aria-label="Go to image 3"></button>
+              <button class="carousel-dot" data-index="3" onclick="goToSlide(3)" aria-label="Go to image 4"></button>
+            </div>
+            
+            <button class="carousel-btn" onclick="scrollNext()" aria-label="Next image">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Desktop 2x2 Grid -->
+        <div class="gallery-desktop">
+          <div class="gallery-item">
+            <img src="images/Chip repair.png" alt="Precision Chip Repair" style="object-position: center 60%;">
+            <div class="gallery-item-overlay"></div>
+            <div class="gallery-item-title">
+              <h3>Precision Chip Repair</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/back glass action shot.jpg" alt="Expert Installation" style="object-position: center 55%;">
+            <div class="gallery-item-overlay"></div>
+            <div class="gallery-item-title">
+              <h3>Expert Installation</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/Caulking gun.png" alt="Proper Sealing" style="object-position: center 40%;">
+            <div class="gallery-item-overlay"></div>
+            <div class="gallery-item-title">
+              <h3>Proper Sealing</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/Cleaning windshield.png" alt="Quality Finish" style="object-position: center 45%;">
+            <div class="gallery-item-overlay"></div>
+            <div class="gallery-item-title">
+              <h3>Quality Finish</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT / CTA SECTION
+         ============================================ -->
+    <section id="contact" class="contact">
+      <!-- Decorative Background -->
+      <div class="contact-bg-1"></div>
+      <div class="contact-bg-2"></div>
+
+      <div class="contact-content">
+        <h2>Ready to fix that crack?</h2>
+        <p class="contact-description">
+          Get a fast, free quote today. Call or text me directly, and I'll get back to you with a price and availability.
+        </p>
+        
+        <div class="contact-cards">
+          <!-- Phone Card -->
+          <a href="tel:4323522687" class="contact-card">
+            <div class="contact-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <h3>Call or Text</h3>
+            <p class="value">(432) 352-2687</p>
+            <p class="subtitle">Fastest response time</p>
+          </a>
+
+          <!-- Email Card -->
+          <a href="mailto:dedwardbeal@gmail.com" class="contact-card">
+            <div class="contact-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            </div>
+            <h3>Email Me</h3>
+            <p class="email-value">dedwardbeal@gmail.com</p>
+            <p class="subtitle">For quotes & inquiries</p>
+          </a>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Serving Odessa, Midland & Permian Basin</span>
+          </div>
+          <div class="contact-info-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>Mon - Fri: 8:00 AM - 6:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span>BEAL GLASS</span>
+        </div>
+        
+        <nav class="footer-nav">
+          <a href="#services">Services</a>
+          <a href="#gallery">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="footer-copy">
+          <p>&copy; <span id="current-year"></span> Beal Glass. All rights reserved.</p>
+          <p class="location">Proudly serving Odessa, TX.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- ============================================
+       JAVASCRIPT
+       ============================================ -->
+  <script>
+    // Set current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const menuIcon = document.getElementById('menu-icon');
+      const closeIcon = document.getElementById('close-icon');
+      
+      menu.classList.toggle('active');
+      
+      if (menu.classList.contains('active')) {
+        menuIcon.style.display = 'none';
+        closeIcon.style.display = 'block';
+      } else {
+        menuIcon.style.display = 'block';
+        closeIcon.style.display = 'none';
+      }
+    }
+
+    function closeMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const menuIcon = document.getElementById('menu-icon');
+      const closeIcon = document.getElementById('close-icon');
+      
+      menu.classList.remove('active');
+      menuIcon.style.display = 'block';
+      closeIcon.style.display = 'none';
+    }
+
+    // Carousel functionality
+    let currentSlide = 0;
+    const totalSlides = 4;
+    const carousel = document.getElementById('carousel');
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.carousel-dot');
+
+    function updateCarousel() {
+      // Update slide positions
+      const offset = currentSlide * -85; // 85% width per slide
+      carousel.style.transform = `translateX(${offset}%)`;
+      
+      // Update active/inactive states
+      slides.forEach((slide, index) => {
+        if (index === currentSlide) {
+          slide.classList.remove('inactive');
+        } else {
+          slide.classList.add('inactive');
+        }
+      });
+      
+      // Update dots
+      dots.forEach((dot, index) => {
+        if (index === currentSlide) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+    }
+
+    function scrollPrev() {
+      currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+      updateCarousel();
+    }
+
+    function scrollNext() {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      updateCarousel();
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateCarousel();
+    }
+
+    // Initialize carousel
+    updateCarousel();
+
+    // Touch/swipe support for carousel
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    const carouselViewport = document.querySelector('.carousel-viewport');
+    
+    if (carouselViewport) {
+      carouselViewport.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, { passive: true });
+
+      carouselViewport.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+      }, { passive: true });
+    }
+
+    function handleSwipe() {
+      const swipeThreshold = 50;
+      const diff = touchStartX - touchEndX;
+      
+      if (Math.abs(diff) > swipeThreshold) {
+        if (diff > 0) {
+          scrollNext();
+        } else {
+          scrollPrev();
+        }
+      }
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href !== '#') {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+
