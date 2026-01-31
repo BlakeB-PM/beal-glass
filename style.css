@@ -660,11 +660,15 @@ a {
 .about-signature .name {
   font-weight: 700;
   color: var(--slate-900);
+  margin-bottom: 0;
+  line-height: 1.2;
 }
 
 .about-signature .title {
   color: var(--slate-500);
   font-size: 0.875rem;
+  margin-bottom: 0;
+  line-height: 1.2;
 }
 
 /* ============================================
